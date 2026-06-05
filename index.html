@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nikhil Kumar Pillay — Software Engineer</title>
+  <meta name="description" content="Nikhil Kumar Rajendra Pillay — Software Engineer. AI/ML, backend automation & cloud. A dragonfire-themed portfolio." />
+  <meta name="author" content="Nikhil Kumar Rajendra Pillay" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Nikhil Kumar Pillay — Software Engineer" />
+  <meta property="og:description" content="AI/ML · Backend Automation · Cloud. Born amid dragonfire." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Spectral:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐉</text></svg>" />
+
+  <!-- Three.js via import map (CDN, no build step) -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Loading veil -->
+  <div id="loader">
+    <div class="loader-sigil">🐉</div>
+    <div class="loader-text">Waking the dragon…</div>
+    <div class="loader-bar"><span></span></div>
+  </div>
+
+  <!-- WebGL canvas lives here -->
+  <canvas id="dragon-canvas"></canvas>
+  <div id="ember-overlay"></div>
+
+  <!-- Navigation -->
+  <nav id="nav">
+    <a href="#hero" class="nav-brand">N · K · P</a>
+    <button id="nav-toggle" aria-label="Menu">☰</button>
+    <ul id="nav-links">
+      <li><a href="#about">Origins</a></li>
+      <li><a href="#skills">Arsenal</a></li>
+      <li><a href="#experience">Conquests</a></li>
+      <li><a href="#projects">Forged Works</a></li>
+      <li><a href="#contact">Send a Raven</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <p class="hero-kicker reveal">Software Engineer</p>
+        <h1 class="hero-title reveal">Nikhil Kumar Pillay</h1>
+        <p class="hero-role reveal">AI / ML&nbsp; ·&nbsp; Backend Automation&nbsp; ·&nbsp; Cloud</p>
+        <p class="hero-sub reveal">I build intelligent systems — from neural networks that read medical scans and detect crop disease, to automation frameworks and cloud infrastructure that run themselves.</p>
+        <div class="hero-cta reveal">
+          <a href="#projects" class="btn btn-fire">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+      <div class="scroll-cue reveal"><span></span>Scroll</div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-head reveal">
+        <span class="section-index">I</span>
+        <h2>Origins</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-lore reveal">
+          <p class="lead">A maester of machines and a tamer of code.</p>
+          <p>I'm <strong>Nikhil Kumar Rajendra Pillay</strong>, a Computer Science engineer at <strong>SRM Institute of Science and Technology</strong> (CGPA 8.90/10, graduating 2027). I build at the intersection of <strong>artificial intelligence, backend automation, and cloud</strong> — turning raw data and repetitive toil into systems that act on their own.</p>
+          <p>From training neural networks that read X-rays and diagnose crop disease, to engineering automation that slays manual drudgery, to optimizing cloud cost with infrastructure-as-code — I forge tools that endure.</p>
+        </div>
+        <ul class="about-stats reveal">
+          <li><span class="stat-num" data-target="8.90" data-decimals="2">0</span><span class="stat-label">CGPA / 10</span></li>
+          <li><span class="stat-num" data-target="3">0</span><span class="stat-label">Internships</span></li>
+          <li><span class="stat-num" data-target="9">0</span><span class="stat-label">Major Builds</span></li>
+          <li><span class="stat-num" data-target="2560">0</span><span class="stat-label">SRMJEEE Rank / 500k</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-head reveal">
+        <span class="section-index">II</span>
+        <h2>Arsenal</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h3>🔥 Languages</h3>
+          <ul><li>Python</li><li>C++</li><li>C</li><li>Java</li><li>MySQL</li></ul>
+        </div>
+        <div class="skill-card reveal">
+          <h3>🧠 ML &amp; AI</h3>
+          <ul><li>PyTorch</li><li>TensorFlow</li><li>Scikit-Learn</li><li>OpenCV</li><li>NumPy</li></ul>
+        </div>
+        <div class="skill-card reveal">
+          <h3>⚙️ Automation &amp; Web</h3>
+          <ul><li>Selenium</li><li>Playwright</li><li>BeautifulSoup</li><li>Flask</li><li>Pandas</li></ul>
+        </div>
+        <div class="skill-card reveal">
+          <h3>🛠️ Tools &amp; Cloud</h3>
+          <ul><li>Git / GitHub</li><li>Terraform (IaC)</li><li>Postman</li><li>VS Code</li><li>Chrome DevTools</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="section-head reveal">
+        <span class="section-index">III</span>
+        <h2>Conquests</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <span class="tl-date">March 2026 — Present</span>
+            <h3>Backend Intern · <em>HireFt</em></h3>
+            <ul>
+              <li>Designed and maintained end-to-end web automation workflows with <strong>Selenium</strong> &amp; <strong>Playwright</strong>, eliminating repetitive manual tasks.</li>
+              <li>Built Python scripts for automated scraping, data extraction, and form submission — slashing manual processing time.</li>
+              <li>Engineered reusable, modular automation frameworks with robust error handling and logging for reliable, scalable execution.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <span class="tl-date">December 2025 — January 2026</span>
+            <h3>Research Intern · <em>IIT Jodhpur</em></h3>
+            <ul>
+              <li>Engineered a modular computational pipeline transforming raw <strong>Optical Emission Spectroscopy (OES)</strong> data into actionable intelligence for real-time industrial process control.</li>
+              <li>Optimized the methodology to balance high-speed processing with analytical precision for automated process monitoring.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <span class="tl-date">January 2025 — March 2025</span>
+            <h3>Machine Learning Intern · <em>TechnoColabs Software</em></h3>
+            <ul>
+              <li>Optimized delivery-partner allocation and ETA modeling in last-mile logistics using predictive ML.</li>
+              <li>Performed delay analysis and forecasting across courier factors to boost operational efficiency and reveal demand patterns.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head reveal">
+        <span class="section-index">IV</span>
+        <h2>Forged Works</h2>
+      </div>
+      <p class="section-note reveal">Drawn from the resume scrolls and the GitHub vault — <a href="https://github.com/DOOMSDAY1009" target="_blank" rel="noopener">github.com/DOOMSDAY1009</a></p>
+      <div class="projects-grid" id="projects-grid">
+        <!-- cards injected by main.js -->
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section">
+      <div class="section-head reveal">
+        <span class="section-index">V</span>
+        <h2>Banners &amp; Honors</h2>
+      </div>
+      <div class="honors-grid">
+        <div class="honor reveal"><span class="honor-ico">🏆</span><p><strong>All India Rank 2560</strong> in SRMJEEE 2023 — out of 500,000 candidates.</p></div>
+        <div class="honor reveal"><span class="honor-ico">🏓</span><p><strong>Runner-up, SPL 2024</strong> (Table Tennis) &amp; member of the Institute Badminton Team 2024.</p></div>
+        <div class="honor reveal"><span class="honor-ico">🧭</span><p><strong>Student Guide</strong>, Counselling Service Team — mentored 12 freshmen; coordinated the 2025 Orientation Programme.</p></div>
+        <div class="honor reveal"><span class="honor-ico">⚔️</span><p><strong>Hackathon Volunteer</strong> — managed shortlisting logistics and project-submission selection.</p></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="section-head reveal">
+        <span class="section-index">VI</span>
+        <h2>Send a Raven</h2>
+      </div>
+      <p class="contact-lead reveal">The realm is vast and the night is dark. Reach me through any of these channels.</p>
+      <div class="contact-grid reveal">
+        <a class="contact-card" href="mailto:knikraj005@gmail.com">
+          <span class="cc-ico">✉️</span><span class="cc-label">Email</span><span class="cc-val">knikraj005@gmail.com</span>
+        </a>
+        <a class="contact-card" href="tel:+919392701737">
+          <span class="cc-ico">📜</span><span class="cc-label">Phone</span><span class="cc-val">+91 93927 01737</span>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/in/nikhil-kumar-pillay" target="_blank" rel="noopener">
+          <span class="cc-ico">🔗</span><span class="cc-label">LinkedIn</span><span class="cc-val">Nikhil Kumar Pillay</span>
+        </a>
+        <a class="contact-card" href="https://github.com/DOOMSDAY1009" target="_blank" rel="noopener">
+          <span class="cc-ico">🐙</span><span class="cc-label">GitHub</span><span class="cc-val">DOOMSDAY1009</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Forged in dragonfire · <span id="year"></span> · Nikhil Kumar Rajendra Pillay</p>
+    <p class="footer-sigil">🐉 “When code plays the game of thrones, you ship or you die.”</p>
+  </footer>
+
+  <script type="module" src="./dragon.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
